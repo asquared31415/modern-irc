@@ -243,7 +243,9 @@ Part of the post-registration greeting, this numeric returns a human-readable da
       "<client> <servername> <version> <available user modes>
       <available channel modes> [<channel modes with a parameter>]"
 
-Part of the post-registration greeting. Clients SHOULD discover available features using `RPL_ISUPPORT` tokens rather than the mode letters listed in this reply.
+Part of the post-registration greeting. Clients SHOULD discover available channel modes and features using `RPL_ISUPPORT` tokens rather than the mode letters listed in this reply.
+
+Note that there are not standardized `RPL_ISUPPORT` tokens for discovering available user modes.
 
 {% numericheader RPL_ISUPPORT %}
 
